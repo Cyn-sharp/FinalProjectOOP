@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GymManagementSystem2.GymController" BaseTypeListCollapsed="true">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAACIDCAAAICAEYgoAUQEAAAgAYAABCA=</HashCode>
+      <FileName>IGymActions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GymManagementSystem2.Person">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAAAEAAAAQAAAAAAABAACAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GymManagementSystem2.Member">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="GymManagementSystem2.Member.WeightRecord" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Person.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAEIkAAAIAACAIEAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GymManagementSystem2.Program" Collapsed="true">
+    <Position X="5.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAACQAAAAIAAAAQAAAAQAAAIgBAAIAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GymManagementSystem2.Instructor">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAiAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GymManagementSystem2.Exercise">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GymManagementSystem2.Payment">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABQAAEAAEQACAAAAAACACAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GymManagementSystem2.FileHandler">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAAAABAAAQAACAAAAAEAAAAAQABIAAAAAAAAA=</HashCode>
+      <FileName>FileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GymManagementSystem2.IGymActions">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAQAAAAAAAAAgAAAAACA=</HashCode>
+      <FileName>IGymActions.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
